@@ -1,8 +1,7 @@
 <template>
-    <section>
-    <!-- <component :is="this.currentView" :pae="this.pae"></component> -->
-    <!--     <h1>FUNCIONOU O ELEMENTO VUE</h1> -->
-    </section>
+
+        <and-pres-contact> </and-pres-contact>
+  
 </template>
 
 <script>
@@ -11,8 +10,7 @@
 
     export default {
         props: {
-            currentView: String,
-            paeName: String,
+            currentView: String
         },
 
         beforeMount() {
@@ -20,11 +18,11 @@
         },
 
         methods: {
-            
+
         },
 
         computed: {
-          
+
         }
     }
 </script>

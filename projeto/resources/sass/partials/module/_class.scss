@@ -1,0 +1,42 @@
+@for $i from 10 through 1 {
+
+	.margin-bottom-#{$i * 10} {
+		$margin: $i * 10px;
+		margin-bottom: $margin;
+
+		@media screen and (max-width: map-get($grid-breakpoints, 'xl')){
+			margin-bottom: $margin - ($margin * 0.1); // -10%
+		}
+		
+		@media screen and (max-width: map-get($grid-breakpoints, 'lg')){	
+			margin-bottom: $margin - ($margin * 0.2); // -20%
+		}
+
+		@media screen and (max-width: map-get($grid-breakpoints, 'sm')){
+			margin-bottom: $margin - ($margin * 0.3); // -30%
+		}
+	}
+
+}
+
+
+@for $i from 1 through 10 {
+
+	.margin-top-#{$i * 10} {
+		$margin: $i * 10px;
+		margin-top: $margin;
+
+		@media screen and (max-width: map-get($grid-breakpoints, 'xl')){
+			margin-top: $margin - ($margin * 0.1); // +10%
+		}
+		
+		@media screen and (max-width: map-get($grid-breakpoints, 'lg')){	
+			margin-top: $margin - ($margin * 0.2); // +20%
+		}
+
+		@media screen and (max-width: map-get($grid-breakpoints, 'sm')){
+			margin-top: $margin - ($margin * 0.3); // +30%
+		}
+	}
+
+}

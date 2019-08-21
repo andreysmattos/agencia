@@ -26,9 +26,13 @@
 
 </head>
 <body>
-	<div id="app">	
+	<div id="app">
+
+		@include('header.index')
 
 		@yield('content')
+
+		@include('footer.index')
 	
 	</div>
 

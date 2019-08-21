@@ -10679,6 +10679,101 @@ input:focus {
 Seria a parte da estrutura do seu projeto, aqui entrará o CSSGrids, FlexBox, Position, Header, Footer, Section, cabeçalho, rodapé, entre outros
 */
 
+footer {
+  background-color: #47527B;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+footer .direitos-reservados {
+  font-size: 14px;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+footer ul.social-midia {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+footer ul.social-midia li {
+  display: inline-block;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  footer ul.social-midia li {
+    display: block;
+  }
+}
+
+footer ul.social-midia li a {
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+footer ul.social-midia li a:hover {
+  color: #FE5105;
+}
+
+footer ul.social-midia li a svg {
+  width: 38px;
+  height: 38px;
+}
+
+footer ul.menu {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
+
+footer ul.menu li {
+  display: inline-block;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  footer ul.menu li {
+    display: block;
+  }
+}
+
+footer ul.menu li a {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+
+footer ul.menu li a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #FE5105;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+footer ul.menu li a:hover {
+  color: #FE5105;
+}
+
+footer ul.menu li a:hover::after {
+  width: 100% !important;
+}
+
 /*
 Podemos entender a camada Module como componentes, por exemplo, botões ou alertas.
 Partes realmente reutilizáveis dentro do seu app e que poderão ser usadas em mais de um lugar.
@@ -10813,8 +10908,8 @@ p,
   font-family: "Source Sans Pro";
   font-weight: 700;
   color: #ffffff;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
   padding-right: 2.8em;
   padding-left: 2.8em;
   background-color: #010101;
@@ -10871,6 +10966,446 @@ p,
 
 .form__input::placeholder {
   color: #47527B;
+}
+
+.margin-bottom-100 {
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-bottom-100 {
+    margin-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-bottom-100 {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-bottom-100 {
+    margin-bottom: 70px;
+  }
+}
+
+.margin-bottom-90 {
+  margin-bottom: 90px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-bottom-90 {
+    margin-bottom: 81px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-bottom-90 {
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-bottom-90 {
+    margin-bottom: 63px;
+  }
+}
+
+.margin-bottom-80 {
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-bottom-80 {
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-bottom-80 {
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-bottom-80 {
+    margin-bottom: 56px;
+  }
+}
+
+.margin-bottom-70 {
+  margin-bottom: 70px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-bottom-70 {
+    margin-bottom: 63px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-bottom-70 {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-bottom-70 {
+    margin-bottom: 49px;
+  }
+}
+
+.margin-bottom-60 {
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-bottom-60 {
+    margin-bottom: 54px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-bottom-60 {
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-bottom-60 {
+    margin-bottom: 42px;
+  }
+}
+
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-bottom-50 {
+    margin-bottom: 45px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-bottom-50 {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-bottom-50 {
+    margin-bottom: 35px;
+  }
+}
+
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-bottom-40 {
+    margin-bottom: 36px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-bottom-40 {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-bottom-40 {
+    margin-bottom: 28px;
+  }
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-bottom-30 {
+    margin-bottom: 27px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-bottom-30 {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-bottom-30 {
+    margin-bottom: 21px;
+  }
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-bottom-20 {
+    margin-bottom: 18px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-bottom-20 {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-bottom-20 {
+    margin-bottom: 14px;
+  }
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-bottom-10 {
+    margin-bottom: 9px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-bottom-10 {
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-bottom-10 {
+    margin-bottom: 7px;
+  }
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-top-10 {
+    margin-top: 9px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-top-10 {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-top-10 {
+    margin-top: 7px;
+  }
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-top-20 {
+    margin-top: 18px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-top-20 {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-top-20 {
+    margin-top: 14px;
+  }
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-top-30 {
+    margin-top: 27px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-top-30 {
+    margin-top: 24px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-top-30 {
+    margin-top: 21px;
+  }
+}
+
+.margin-top-40 {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-top-40 {
+    margin-top: 36px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-top-40 {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-top-40 {
+    margin-top: 28px;
+  }
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-top-50 {
+    margin-top: 45px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-top-50 {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-top-50 {
+    margin-top: 35px;
+  }
+}
+
+.margin-top-60 {
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-top-60 {
+    margin-top: 54px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-top-60 {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-top-60 {
+    margin-top: 42px;
+  }
+}
+
+.margin-top-70 {
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-top-70 {
+    margin-top: 63px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-top-70 {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-top-70 {
+    margin-top: 49px;
+  }
+}
+
+.margin-top-80 {
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-top-80 {
+    margin-top: 72px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-top-80 {
+    margin-top: 64px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-top-80 {
+    margin-top: 56px;
+  }
+}
+
+.margin-top-90 {
+  margin-top: 90px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-top-90 {
+    margin-top: 81px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-top-90 {
+    margin-top: 72px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-top-90 {
+    margin-top: 63px;
+  }
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+  .margin-top-100 {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .margin-top-100 {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .margin-top-100 {
+    margin-top: 70px;
+  }
 }
 
 /*
