@@ -1,0 +1,52 @@
+html,
+body,
+#app {
+	overflow-x: hidden;
+}
+
+html {
+	font-size: 10px;
+	
+	overflow-y: auto;
+
+	// @media screen and (max-width: map-get($grid-breakpoints, 'lg')){
+	// 	font-size: 58%;
+	// }
+
+	// @media screen and (max-width: map-get($grid-breakpoints, 'md')){
+	// 	font-size: 55%;
+	// }
+}
+
+
+body {
+	font-size: 16px;
+	font-family: $font-primary;
+}
+
+html, body {
+	min-height: 100vh;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+button, input {
+	&,
+	&:active,
+	&:focus {
+		outline: none;
+	}
+}

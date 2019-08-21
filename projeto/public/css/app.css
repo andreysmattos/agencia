@@ -581,40 +581,22 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 16px;
+  padding-left: 16px;
   margin-right: auto;
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
-
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 1200px;
   }
 }
 
 .container-fluid {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 16px;
+  padding-left: 16px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -622,8 +604,8 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: -16px;
+  margin-left: -16px;
 }
 
 .no-gutters {
@@ -709,8 +691,8 @@ pre code {
 .col-1 {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 .col {
@@ -4860,23 +4842,23 @@ input[type=button].btn-block {
 }
 
 .card-deck .card {
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 @media (min-width: 576px) {
   .card-deck {
     flex-flow: row wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: -16px;
+    margin-left: -16px;
   }
 
   .card-deck .card {
     display: flex;
     flex: 1 0 0%;
     flex-direction: column;
-    margin-right: 15px;
+    margin-right: 16px;
     margin-bottom: 0;
-    margin-left: 15px;
+    margin-left: 16px;
   }
 }
 
@@ -4886,7 +4868,7 @@ input[type=button].btn-block {
 }
 
 .card-group > .card {
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 @media (min-width: 576px) {
@@ -6065,14 +6047,14 @@ a.close.disabled {
 .modal-body {
   position: relative;
   flex: 1 1 auto;
-  padding: 1rem;
+  padding: 0;
 }
 
 .modal-footer {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 1rem;
+  padding: 0;
   border-top: 1px solid #dee2e6;
   border-bottom-right-radius: 0.3rem;
   border-bottom-left-radius: 0.3rem;
@@ -10649,6 +10631,50 @@ Aqui você não irá colocar nenhuma classe ou id, apenas seletores e pseudo-cla
 Seria seus arquivos base da sua aplicação, o que é comum para todo o seu layout como Reset e Plugins.
 */
 
+html,
+body,
+#app {
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 10px;
+  overflow-y: auto;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Source Sans Pro";
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+button,
+button:active,
+button:focus,
+input,
+input:active,
+input:focus {
+  outline: none;
+}
+
 /*
 Seria a parte da estrutura do seu projeto, aqui entrará o CSSGrids, FlexBox, Position, Header, Footer, Section, cabeçalho, rodapé, entre outros
 */
@@ -10752,6 +10778,34 @@ Partes realmente reutilizáveis dentro do seu app e que poderão ser usadas em m
   src: url("http://localhost:8000/font/SourceSansPro-Light.eot?#iefix") format("embedded-opentype"), url("http://localhost:8000/font/SourceSansPro-Light.woff2") format("woff2"), url("http://localhost:8000/font/SourceSansPro-Light.woff") format("woff"), url("http://localhost:8000/font/SourceSansPro-Light.ttf") format("truetype"), url("http://localhost:8000/font/SourceSansPro-Light.svg#SourceSansPro-Light") format("svg");
   font-weight: 300;
   font-style: normal;
+}
+
+h1,
+.h1,
+.title {
+  font-size: 4.8rem;
+  font-family: "Source Sans Pro";
+  color: #47527B;
+  font-weight: 600;
+}
+
+h2,
+.h2,
+.second-title {
+  font-size: 1.8rem;
+  font-family: "Source Sans Pro";
+  color: #FE5105;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+p,
+.p,
+.text {
+  font-size: 1.8rem;
+  font-family: "Source Sans Pro";
+  color: #47527B;
+  font-weight: 700;
 }
 
 /*

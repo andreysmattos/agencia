@@ -1,0 +1,28 @@
+h1, 
+.h1,
+.title {
+	font-size: 4.8rem;
+	font-family: $font-primary;
+	color: $color-primary;
+	font-weight: 600;
+}
+
+
+h2,
+.h2,
+.second-title {
+	font-size: 1.8rem;
+	font-family: $font-primary;
+	color: $color-second;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+p,
+.p,
+.text {
+	font-size: 1.8rem;
+	font-family: $font-primary;
+	color: $color-primary;
+	font-weight: 700;
+}

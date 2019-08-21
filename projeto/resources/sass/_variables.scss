@@ -1,2 +1,31 @@
 $base-url: 'http://localhost:8000/';
 
+$font-primary: 'Source Sans Pro';
+
+
+
+
+$color-orange: #FE5105;
+
+// fiquei na duvida, se isso era azul, roxo ou cinza
+$color-blue: #47527B;
+$color-white: #ffffff;
+
+
+
+// mudar aki \/
+$color-primary: $color-blue;
+$color-second: $color-orange;
+
+
+// Default transition
+$transition: all .2s ease-in-out;
+
+// Bootstrap overrides
+$grid-gutter-width: 32px;
+$container-max-widths: (
+  xl: 1200px
+);
+
+
+$modal-inner-padding: 0;
