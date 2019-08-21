@@ -1,0 +1,36 @@
+.button {
+	font-size: 1.8rem;
+	font-family: $font-primary;
+	font-weight: 700;
+	color: $color-white;
+
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 2.8em;
+	padding-left: 2.8em;
+
+	background-color: #010101;
+
+	border-radius: 50px;
+
+	position: relative;
+
+	transition: $transition;
+
+	&:hover {
+		color: $color-white;
+	}
+
+
+	&__orange {
+		background-color: $color-second;
+		border: double 4px transparent;
+
+		&:hover,
+		& .active {
+			border: double 4px $color-second;
+			background-color: transparent;
+			color: $color-second;
+		}
+	}
+}
