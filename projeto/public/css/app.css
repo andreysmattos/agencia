@@ -10882,6 +10882,7 @@ h1,
   font-family: "Source Sans Pro";
   color: #47527B;
   font-weight: 600;
+  margin-top: 1rem;
 }
 
 h2,
@@ -10892,6 +10893,7 @@ h2,
   color: #FE5105;
   text-transform: uppercase;
   font-weight: 700;
+  margin-top: 1rem;
 }
 
 p,
@@ -10901,6 +10903,7 @@ p,
   font-family: "Source Sans Pro";
   color: #47527B;
   font-weight: 700;
+  margin-top: 1rem;
 }
 
 .button {

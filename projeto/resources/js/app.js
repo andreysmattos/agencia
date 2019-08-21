@@ -31,6 +31,8 @@ Vue.component('and-contact', require('./components/startpack/contact/container/a
 // PRESENTATION
 Vue.component('and-pres-master-footer', require('./components/startpack/footer/presentation/and-pres-master-footer.vue').default);
 Vue.component('and-pres-contact', require('./components/startpack/contact/presentation/and-pres-contact.vue').default);
+Vue.component('and-pres-block-image-left', require('./components/startpack/block/presentation/and-pres-block-image-left.vue').default);
+Vue.component('and-pres-block-image-right', require('./components/startpack/block/presentation/and-pres-block-image-right.vue').default);
 
 
 /**
