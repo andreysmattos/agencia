@@ -10839,6 +10839,40 @@ p,
   color: #FE5105;
 }
 
+.form__input {
+  background-color: #F4FAFE;
+  display: block;
+  color: #47527B;
+  border: none;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 0.3em 1em 0.3em;
+  margin-bottom: 0.66em;
+  width: 100%;
+  height: 3.4em;
+  outline: none;
+}
+
+.form__input::-webkit-input-placeholder {
+  color: #47527B;
+}
+
+.form__input::-moz-placeholder {
+  color: #47527B;
+}
+
+.form__input:-ms-input-placeholder {
+  color: #47527B;
+}
+
+.form__input::-ms-input-placeholder {
+  color: #47527B;
+}
+
+.form__input::placeholder {
+  color: #47527B;
+}
+
 /*
 
 

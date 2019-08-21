@@ -41,6 +41,37 @@
 	<a href="#" class="button button__orange">More About us</a>
 
 
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+
+	<h1>Formularios</h1>
+
+	<br>
+	<br>
+	<br>
+
+	<div class="row">
+		<div class="col-md-6">
+			<form action="">
+				<input class="form form__input" type="text" placeholder="Your name">
+				<input type="text" class="form form__input" placeholder="Your email">
+				<input type="text" class="form form__input" placeholder="Your phone number">
+			</form>
+		</div>
+
+		<div class="col-md-6">
+			<textarea class="form form__input" name="" placeholder="Message here..." style="height: 208px"></textarea>
+		</div>
+	</div>
+
+
 
 
 	<br>
