@@ -1,8 +1,70 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+
+// Partials
+
+
+// Base
+/*
+Aqui você não irá colocar nenhuma classe ou id, apenas seletores e pseudo-classes.
+Seria seus arquivos base da sua aplicação, o que é comum para todo o seu layout como Reset e Plugins.
+*/
+@import 'partials/_base';
+
+
+
+
+
+// Layout
+/*
+Seria a parte da estrutura do seu projeto, aqui entrará o CSSGrids, FlexBox, Position, Header, Footer, Section, cabeçalho, rodapé, entre outros
+*/
+@import 'partials/_layout';
+
+
+
+
+
+
+
+
+// Module
+/*
+Podemos entender a camada Module como componentes, por exemplo, botões ou alertas.
+Partes realmente reutilizáveis dentro do seu app e que poderão ser usadas em mais de um lugar.
+*/
+@import 'partials/_module';
+
+
+
+
+
+// State
+/*
+Não uso muito.
+
+Todo elemento que será modificado ou terá alguma alteração no seu estado inicial, ficará na camada State. 
+Alguns exemplos:
+.hidden
+.visible
+.selected
+.active
+*/
+@import 'partials/_state';
+
+
+
+
+
+
+ //Theme
+ /*
+ Aqui você altera as cores prevendo como deveria se comportar o layout para pessoas com deficiência visual ou luminosidade do ambiente. 
+ */
+ @import 'partials/_theme';
+
+
