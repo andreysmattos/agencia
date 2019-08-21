@@ -32,8 +32,8 @@
 	
 	</div>
 
-	{{-- 
 	<script src="{{ asset('js/app.js?v=0.0.1') }}" defer></script> 
+	{{-- 
 
 	<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
