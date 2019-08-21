@@ -38154,7 +38154,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-md-6" }, [
         _c("h2", [_vm._v("Agencia Andrey")]),
         _vm._v(" "),
-        _c("h1", [_vm._v("Mas bah gurizada, contrata ai")]),
+        _c("h1", [_vm._v("Mas bah gurizada, que friozinho")]),
         _vm._v(" "),
         _c("p", [
           _vm._v(
