@@ -13,6 +13,15 @@ const SET_INNER = (state, obj) => {
 const SET_CONFIGS = (state, obj) =>{
     state.configurations = obj.list
 }
+const DEL_MENU = (state, item) =>{
+    console.log('item na mutation', item);
+
+    let pos = state.menus.indexOf(item)
+    console.log('pos é ', pos);
+
+    state.menus.splice(pos, 1);
+
+}
 
 const SET_MENUS = (state, obj) =>{
     state.menus = obj.list
@@ -163,5 +172,6 @@ export default {
     SET_CONTRASTE,
     SET_SEARCH,
     SET_ACTION_RESPONSE,
-    SET_SCHEDULES
+    SET_SCHEDULES,
+    DEL_MENU
 }

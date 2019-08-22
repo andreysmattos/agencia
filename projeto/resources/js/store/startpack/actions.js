@@ -11,6 +11,10 @@ const setInner = async ({commit, state}, page) => {
     commit('SET_INNER', {inner})
 }
 
+const delMenu = async ({commit, state}, item) => {
+    commit('DEL_MENU', item);
+}
+
 const setTemperature = async ({commit, state}, page) => {
     const temperature = (await axios.get(state.baseURL + '/ajax/temperature')).data
 
@@ -405,5 +409,6 @@ export default {
 	setContraste,
 	setSearch,
 	setDepartmentList,
-    setSchedules
+    setSchedules,
+    delMenu
 }

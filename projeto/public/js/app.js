@@ -1976,25 +1976,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 // import imageThumb from '../../../mixins/imageThumb'
 // import { mapGetters } from "vuex";
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -2004,7 +1985,7 @@ __webpack_require__.r(__webpack_exports__);
     // 	default: {}
     // }
     menus: {
-      type: Object,
+      type: Array,
       "default": []
     }
   },
@@ -2094,6 +2075,80 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
   watch: {},
   methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])('startpack', ['setConfigs', 'setState', 'setToken', 'setMenus', 'setBreadcrumbs', 'setContraste'])),
   computed: {}
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/startpack/temp/container/and-menu-edit.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/startpack/temp/container/and-menu-edit.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "and-menu-edit",
+  props: {},
+  beforeMount: function beforeMount() {},
+  methods: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapActions"])('startpack', ['delMenu']), {
+    teste: function teste(item) {
+      this.delMenu(item);
+    }
+  }),
+  computed: _objectSpread({}, Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])('startpack', ['menus'])),
+  watch: {}
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "and-pres-edit-menu",
+  props: {
+    menus: {
+      type: Array,
+      "default": []
+    }
+  },
+  methods: {
+    remove: function remove(aux) {
+      //aki vai deletar o item do menu
+      this.$emit('del', aux);
+    }
+  }
 });
 
 /***/ }),
@@ -6613,6 +6668,25 @@ exports = module.exports = __webpack_require__(/*! ../../../../../../node_module
 
 // module
 exports.push([module.i, "\n.master-footer__img[data-v-1be30382] {\r\n\twidth: 140px;\r\n\tdisplay: block;\r\n\tmargin: 0 auto;\n}\r\n\r\n\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=style&index=0&id=45eea400&scoped=true&lang=css&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=style&index=0&id=45eea400&scoped=true&lang=css& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.list[data-v-45eea400] {\n    display: flex;\n    width: 100%;\n    justify-content: space-between;\n}\n.list-item[data-v-45eea400] {\n    height: 100px;\n    line-height: 100px;\n\n    width: 150px;\n    border: solid 2px black;\n    border-radius: 8px;\n    background-color: #f5f5f5;\n    text-transform: uppercase;\n    font-size: 18px;\n    color: black;\n    font-weight: 700;\n\n    text-align: center;\n}\n\n\n", ""]);
 
 // exports
 
@@ -38322,6 +38396,36 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=style&index=0&id=45eea400&scoped=true&lang=css&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=style&index=0&id=45eea400&scoped=true&lang=css& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../../../../node_modules/css-loader??ref--6-1!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--6-2!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./and-pres-list-menu.vue?vue&type=style&index=0&id=45eea400&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=style&index=0&id=45eea400&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/lib/addStyles.js":
 /*!****************************************************!*\
   !*** ./node_modules/style-loader/lib/addStyles.js ***!
@@ -39395,6 +39499,81 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div")
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/startpack/temp/container/and-menu-edit.vue?vue&type=template&id=47c29ad0&scoped=true&":
+/*!*****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/startpack/temp/container/and-menu-edit.vue?vue&type=template&id=47c29ad0&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "section",
+    [
+      _c("and-pres-list-menu", {
+        attrs: { menus: _vm.menus },
+        on: { del: _vm.teste }
+      })
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=template&id=45eea400&scoped=true&":
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=template&id=45eea400&scoped=true& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "ul",
+    { staticClass: "list" },
+    _vm._l(_vm.menus, function(menu) {
+      return _c(
+        "li",
+        {
+          staticClass: "list-item",
+          on: {
+            click: function($event) {
+              return _vm.remove(menu)
+            }
+          }
+        },
+        [_vm._v("\n        " + _vm._s(menu) + "\n    ")]
+      )
+    }),
+    0
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -52606,12 +52785,14 @@ Vue.component('and-config', __webpack_require__(/*! ./components/startpack/heade
 
 Vue.component('and-block-icon', __webpack_require__(/*! ./components/startpack/block/container/and-block-icon.vue */ "./resources/js/components/startpack/block/container/and-block-icon.vue")["default"]);
 Vue.component('and-master-footer', __webpack_require__(/*! ./components/startpack/footer/container/and-master-footer.vue */ "./resources/js/components/startpack/footer/container/and-master-footer.vue")["default"]);
-Vue.component('and-contact', __webpack_require__(/*! ./components/startpack/contact/container/and-contact.vue */ "./resources/js/components/startpack/contact/container/and-contact.vue")["default"]); // PRESENTATION
+Vue.component('and-contact', __webpack_require__(/*! ./components/startpack/contact/container/and-contact.vue */ "./resources/js/components/startpack/contact/container/and-contact.vue")["default"]);
+Vue.component('and-menu-edit', __webpack_require__(/*! ./components/startpack/temp/container/and-menu-edit.vue */ "./resources/js/components/startpack/temp/container/and-menu-edit.vue")["default"]); // PRESENTATION
 
 Vue.component('and-pres-master-footer', __webpack_require__(/*! ./components/startpack/footer/presentation/and-pres-master-footer.vue */ "./resources/js/components/startpack/footer/presentation/and-pres-master-footer.vue")["default"]);
 Vue.component('and-pres-contact', __webpack_require__(/*! ./components/startpack/contact/presentation/and-pres-contact.vue */ "./resources/js/components/startpack/contact/presentation/and-pres-contact.vue")["default"]);
 Vue.component('and-pres-block-image-left', __webpack_require__(/*! ./components/startpack/block/presentation/and-pres-block-image-left.vue */ "./resources/js/components/startpack/block/presentation/and-pres-block-image-left.vue")["default"]);
 Vue.component('and-pres-block-image-right', __webpack_require__(/*! ./components/startpack/block/presentation/and-pres-block-image-right.vue */ "./resources/js/components/startpack/block/presentation/and-pres-block-image-right.vue")["default"]);
+Vue.component('and-pres-list-menu', __webpack_require__(/*! ./components/startpack/temp/presentation/and-pres-list-menu.vue */ "./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -53344,6 +53525,162 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/startpack/temp/container/and-menu-edit.vue":
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/startpack/temp/container/and-menu-edit.vue ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _and_menu_edit_vue_vue_type_template_id_47c29ad0_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./and-menu-edit.vue?vue&type=template&id=47c29ad0&scoped=true& */ "./resources/js/components/startpack/temp/container/and-menu-edit.vue?vue&type=template&id=47c29ad0&scoped=true&");
+/* harmony import */ var _and_menu_edit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./and-menu-edit.vue?vue&type=script&lang=js& */ "./resources/js/components/startpack/temp/container/and-menu-edit.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _and_menu_edit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _and_menu_edit_vue_vue_type_template_id_47c29ad0_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _and_menu_edit_vue_vue_type_template_id_47c29ad0_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "47c29ad0",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/startpack/temp/container/and-menu-edit.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/startpack/temp/container/and-menu-edit.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/components/startpack/temp/container/and-menu-edit.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_and_menu_edit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./and-menu-edit.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/startpack/temp/container/and-menu-edit.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_and_menu_edit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/startpack/temp/container/and-menu-edit.vue?vue&type=template&id=47c29ad0&scoped=true&":
+/*!***********************************************************************************************************************!*\
+  !*** ./resources/js/components/startpack/temp/container/and-menu-edit.vue?vue&type=template&id=47c29ad0&scoped=true& ***!
+  \***********************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_and_menu_edit_vue_vue_type_template_id_47c29ad0_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./and-menu-edit.vue?vue&type=template&id=47c29ad0&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/startpack/temp/container/and-menu-edit.vue?vue&type=template&id=47c29ad0&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_and_menu_edit_vue_vue_type_template_id_47c29ad0_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_and_menu_edit_vue_vue_type_template_id_47c29ad0_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue ***!
+  \************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _and_pres_list_menu_vue_vue_type_template_id_45eea400_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./and-pres-list-menu.vue?vue&type=template&id=45eea400&scoped=true& */ "./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=template&id=45eea400&scoped=true&");
+/* harmony import */ var _and_pres_list_menu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./and-pres-list-menu.vue?vue&type=script&lang=js& */ "./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _and_pres_list_menu_vue_vue_type_style_index_0_id_45eea400_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./and-pres-list-menu.vue?vue&type=style&index=0&id=45eea400&scoped=true&lang=css& */ "./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=style&index=0&id=45eea400&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _and_pres_list_menu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _and_pres_list_menu_vue_vue_type_template_id_45eea400_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _and_pres_list_menu_vue_vue_type_template_id_45eea400_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "45eea400",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************!*\
+  !*** ./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_and_pres_list_menu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/babel-loader/lib??ref--4-0!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./and-pres-list-menu.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_and_pres_list_menu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=style&index=0&id=45eea400&scoped=true&lang=css&":
+/*!*********************************************************************************************************************************************!*\
+  !*** ./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=style&index=0&id=45eea400&scoped=true&lang=css& ***!
+  \*********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_and_pres_list_menu_vue_vue_type_style_index_0_id_45eea400_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/style-loader!../../../../../../node_modules/css-loader??ref--6-1!../../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../node_modules/postcss-loader/src??ref--6-2!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./and-pres-list-menu.vue?vue&type=style&index=0&id=45eea400&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=style&index=0&id=45eea400&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_and_pres_list_menu_vue_vue_type_style_index_0_id_45eea400_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_and_pres_list_menu_vue_vue_type_style_index_0_id_45eea400_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_and_pres_list_menu_vue_vue_type_style_index_0_id_45eea400_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_and_pres_list_menu_vue_vue_type_style_index_0_id_45eea400_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_and_pres_list_menu_vue_vue_type_style_index_0_id_45eea400_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=template&id=45eea400&scoped=true&":
+/*!*******************************************************************************************************************************!*\
+  !*** ./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=template&id=45eea400&scoped=true& ***!
+  \*******************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_and_pres_list_menu_vue_vue_type_template_id_45eea400_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../node_modules/vue-loader/lib??vue-loader-options!./and-pres-list-menu.vue?vue&type=template&id=45eea400&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/startpack/temp/presentation/and-pres-list-menu.vue?vue&type=template&id=45eea400&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_and_pres_list_menu_vue_vue_type_template_id_45eea400_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_and_pres_list_menu_vue_vue_type_template_id_45eea400_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/store/index.js":
 /*!*************************************!*\
   !*** ./resources/js/store/index.js ***!
@@ -53470,28 +53807,21 @@ function () {
   };
 }();
 
-var setTemperature =
+var delMenu =
 /*#__PURE__*/
 function () {
   var _ref6 = _asyncToGenerator(
   /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee3(_ref5, page) {
-    var commit, state, temperature;
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee3(_ref5, item) {
+    var commit, state;
     return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee3$(_context3) {
       while (1) {
         switch (_context3.prev = _context3.next) {
           case 0:
             commit = _ref5.commit, state = _ref5.state;
-            _context3.next = 3;
-            return axios.get(state.baseURL + '/ajax/temperature');
+            commit('DEL_MENU', item);
 
-          case 3:
-            temperature = _context3.sent.data;
-            commit('SET_TEMPERATURE', {
-              temperature: temperature
-            });
-
-          case 5:
+          case 2:
           case "end":
             return _context3.stop();
         }
@@ -53499,27 +53829,33 @@ function () {
     }, _callee3);
   }));
 
-  return function setTemperature(_x5, _x6) {
+  return function delMenu(_x5, _x6) {
     return _ref6.apply(this, arguments);
   };
 }();
 
-var setLastBreadcrumb =
+var setTemperature =
 /*#__PURE__*/
 function () {
   var _ref8 = _asyncToGenerator(
   /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee4(_ref7, payload) {
-    var commit, state;
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee4(_ref7, page) {
+    var commit, state, temperature;
     return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee4$(_context4) {
       while (1) {
         switch (_context4.prev = _context4.next) {
           case 0:
             commit = _ref7.commit, state = _ref7.state;
-            state.breadcrumbs[state.breadcrumbs.length - 1].name = payload[0];
-            state.breadcrumbs[state.breadcrumbs.length - 1].url = null;
+            _context4.next = 3;
+            return axios.get(state.baseURL + '/ajax/temperature');
 
           case 3:
+            temperature = _context4.sent.data;
+            commit('SET_TEMPERATURE', {
+              temperature: temperature
+            });
+
+          case 5:
           case "end":
             return _context4.stop();
         }
@@ -53527,25 +53863,25 @@ function () {
     }, _callee4);
   }));
 
-  return function setLastBreadcrumb(_x7, _x8) {
+  return function setTemperature(_x7, _x8) {
     return _ref8.apply(this, arguments);
   };
 }();
 
-var setContraste =
+var setLastBreadcrumb =
 /*#__PURE__*/
 function () {
   var _ref10 = _asyncToGenerator(
   /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee5(_ref9, value) {
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee5(_ref9, payload) {
     var commit, state;
     return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee5$(_context5) {
       while (1) {
         switch (_context5.prev = _context5.next) {
           case 0:
             commit = _ref9.commit, state = _ref9.state;
-            console.log('entrou na action CONTRASTE', value);
-            commit("SET_CONTRASTE", value); // state.contraste = value;
+            state.breadcrumbs[state.breadcrumbs.length - 1].name = payload[0];
+            state.breadcrumbs[state.breadcrumbs.length - 1].url = null;
 
           case 3:
           case "end":
@@ -53555,28 +53891,27 @@ function () {
     }, _callee5);
   }));
 
-  return function setContraste(_x9, _x10) {
+  return function setLastBreadcrumb(_x9, _x10) {
     return _ref10.apply(this, arguments);
   };
 }();
 
-var setFirstNews =
+var setContraste =
 /*#__PURE__*/
 function () {
   var _ref12 = _asyncToGenerator(
   /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee6(_ref11, news) {
-    var commit;
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee6(_ref11, value) {
+    var commit, state;
     return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee6$(_context6) {
       while (1) {
         switch (_context6.prev = _context6.next) {
           case 0:
-            commit = _ref11.commit;
-            commit('SET_NEWS', {
-              news: news
-            });
+            commit = _ref11.commit, state = _ref11.state;
+            console.log('entrou na action CONTRASTE', value);
+            commit("SET_CONTRASTE", value); // state.contraste = value;
 
-          case 2:
+          case 3:
           case "end":
             return _context6.stop();
         }
@@ -53584,46 +53919,28 @@ function () {
     }, _callee6);
   }));
 
-  return function setFirstNews(_x11, _x12) {
+  return function setContraste(_x11, _x12) {
     return _ref12.apply(this, arguments);
   };
 }();
 
-var setConfigs =
+var setFirstNews =
 /*#__PURE__*/
 function () {
   var _ref14 = _asyncToGenerator(
   /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee7(_ref13, payload) {
-    var commit, state, list;
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee7(_ref13, news) {
+    var commit;
     return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee7$(_context7) {
       while (1) {
         switch (_context7.prev = _context7.next) {
           case 0:
-            commit = _ref13.commit, state = _ref13.state;
-
-            if (!payload) {
-              _context7.next = 5;
-              break;
-            }
-
-            list = payload;
-            _context7.next = 8;
-            break;
-
-          case 5:
-            _context7.next = 7;
-            return axios.get(state.baseURL + '/ajax/configs');
-
-          case 7:
-            list = _context7.sent.data;
-
-          case 8:
-            commit('SET_CONFIGS', {
-              list: list
+            commit = _ref13.commit;
+            commit('SET_NEWS', {
+              news: news
             });
 
-          case 9:
+          case 2:
           case "end":
             return _context7.stop();
         }
@@ -53631,12 +53948,12 @@ function () {
     }, _callee7);
   }));
 
-  return function setConfigs(_x13, _x14) {
+  return function setFirstNews(_x13, _x14) {
     return _ref14.apply(this, arguments);
   };
 }();
 
-var setMenus =
+var setConfigs =
 /*#__PURE__*/
 function () {
   var _ref16 = _asyncToGenerator(
@@ -53660,13 +53977,13 @@ function () {
 
           case 5:
             _context8.next = 7;
-            return axios.get(state.baseURL + '/ajax/menus');
+            return axios.get(state.baseURL + '/ajax/configs');
 
           case 7:
             list = _context8.sent.data;
 
           case 8:
-            commit('SET_MENUS', {
+            commit('SET_CONFIGS', {
               list: list
             });
 
@@ -53678,12 +53995,12 @@ function () {
     }, _callee8);
   }));
 
-  return function setMenus(_x15, _x16) {
+  return function setConfigs(_x15, _x16) {
     return _ref16.apply(this, arguments);
   };
 }();
 
-var setSearch =
+var setMenus =
 /*#__PURE__*/
 function () {
   var _ref18 = _asyncToGenerator(
@@ -53695,16 +54012,29 @@ function () {
         switch (_context9.prev = _context9.next) {
           case 0:
             commit = _ref17.commit, state = _ref17.state;
-            state.search = null;
-            _context9.next = 4;
-            return axios.get(state.baseURL + '/ajax/search/' + payload.key);
 
-          case 4:
-            list = _context9.sent.data;
-            console.log('list', list);
-            commit('SET_SEARCH', list);
+            if (!payload) {
+              _context9.next = 5;
+              break;
+            }
+
+            list = payload;
+            _context9.next = 8;
+            break;
+
+          case 5:
+            _context9.next = 7;
+            return axios.get(state.baseURL + '/ajax/menus');
 
           case 7:
+            list = _context9.sent.data;
+
+          case 8:
+            commit('SET_MENUS', {
+              list: list
+            });
+
+          case 9:
           case "end":
             return _context9.stop();
         }
@@ -53712,35 +54042,69 @@ function () {
     }, _callee9);
   }));
 
-  return function setSearch(_x17, _x18) {
+  return function setMenus(_x17, _x18) {
     return _ref18.apply(this, arguments);
   };
 }();
 
-var setBanner =
+var setSearch =
 /*#__PURE__*/
 function () {
   var _ref20 = _asyncToGenerator(
   /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee10(_ref19, banner) {
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee10(_ref19, payload) {
     var commit, state, list;
     return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee10$(_context10) {
       while (1) {
         switch (_context10.prev = _context10.next) {
           case 0:
             commit = _ref19.commit, state = _ref19.state;
-
-            if (!(typeof banner === 'String')) {
-              _context10.next = 7;
-              break;
-            }
-
+            state.search = null;
             _context10.next = 4;
-            return axios.get(state.baseURL + '/ajax/banner/' + banner);
+            return axios.get(state.baseURL + '/ajax/search/' + payload.key);
 
           case 4:
             list = _context10.sent.data;
-            _context10.next = 8;
+            console.log('list', list);
+            commit('SET_SEARCH', list);
+
+          case 7:
+          case "end":
+            return _context10.stop();
+        }
+      }
+    }, _callee10);
+  }));
+
+  return function setSearch(_x19, _x20) {
+    return _ref20.apply(this, arguments);
+  };
+}();
+
+var setBanner =
+/*#__PURE__*/
+function () {
+  var _ref22 = _asyncToGenerator(
+  /*#__PURE__*/
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee11(_ref21, banner) {
+    var commit, state, list;
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee11$(_context11) {
+      while (1) {
+        switch (_context11.prev = _context11.next) {
+          case 0:
+            commit = _ref21.commit, state = _ref21.state;
+
+            if (!(typeof banner === 'String')) {
+              _context11.next = 7;
+              break;
+            }
+
+            _context11.next = 4;
+            return axios.get(state.baseURL + '/ajax/banner/' + banner);
+
+          case 4:
+            list = _context11.sent.data;
+            _context11.next = 8;
             break;
 
           case 7:
@@ -53753,41 +54117,41 @@ function () {
 
           case 9:
           case "end":
-            return _context10.stop();
+            return _context11.stop();
         }
       }
-    }, _callee10);
+    }, _callee11);
   }));
 
-  return function setBanner(_x19, _x20) {
-    return _ref20.apply(this, arguments);
+  return function setBanner(_x21, _x22) {
+    return _ref22.apply(this, arguments);
   };
 }();
 
 var setGalleries =
 /*#__PURE__*/
 function () {
-  var _ref22 = _asyncToGenerator(
+  var _ref24 = _asyncToGenerator(
   /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee11(_ref21, payload) {
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee12(_ref23, payload) {
     var commit, state, element;
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee11$(_context11) {
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee12$(_context12) {
       while (1) {
-        switch (_context11.prev = _context11.next) {
+        switch (_context12.prev = _context12.next) {
           case 0:
-            commit = _ref21.commit, state = _ref21.state;
+            commit = _ref23.commit, state = _ref23.state;
             element = payload.gallery;
 
             if (element) {
-              _context11.next = 6;
+              _context12.next = 6;
               break;
             }
 
-            _context11.next = 5;
+            _context12.next = 5;
             return axios.get(state.baseURL + '/ajax/gallery/' + payload.name);
 
           case 5:
-            element = _context11.sent.data;
+            element = _context12.sent.data;
 
           case 6:
             commit('SET_GALLERIES', {
@@ -53797,75 +54161,37 @@ function () {
 
           case 7:
           case "end":
-            return _context11.stop();
-        }
-      }
-    }, _callee11);
-  }));
-
-  return function setGalleries(_x21, _x22) {
-    return _ref22.apply(this, arguments);
-  };
-}();
-
-var setPaes =
-/*#__PURE__*/
-function () {
-  var _ref24 = _asyncToGenerator(
-  /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee12(_ref23, paeName) {
-    var commit, state, pae;
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee12$(_context12) {
-      while (1) {
-        switch (_context12.prev = _context12.next) {
-          case 0:
-            commit = _ref23.commit, state = _ref23.state;
-            _context12.next = 3;
-            return axios.get(state.baseURL + '/ajax/pae/' + paeName);
-
-          case 3:
-            pae = _context12.sent.data;
-            commit('SET_PAES', {
-              pae: pae
-            });
-
-          case 5:
-          case "end":
             return _context12.stop();
         }
       }
     }, _callee12);
   }));
 
-  return function setPaes(_x23, _x24) {
+  return function setGalleries(_x23, _x24) {
     return _ref24.apply(this, arguments);
   };
 }();
 
-var setImage =
+var setPaes =
 /*#__PURE__*/
 function () {
   var _ref26 = _asyncToGenerator(
   /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee13(_ref25, payload) {
-    var commit, state, result;
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee13(_ref25, paeName) {
+    var commit, state, pae;
     return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee13$(_context13) {
       while (1) {
         switch (_context13.prev = _context13.next) {
           case 0:
             commit = _ref25.commit, state = _ref25.state;
             _context13.next = 3;
-            return axios.post(state.baseURL + '/ajax/image', {
-              'name': payload.name,
-              'path': payload.path,
-              'width': payload.width,
-              'height': payload.height,
-              'size': payload.size
-            });
+            return axios.get(state.baseURL + '/ajax/pae/' + paeName);
 
           case 3:
-            result = _context13.sent.data;
-            if (result != true) window.location.reload();
+            pae = _context13.sent.data;
+            commit('SET_PAES', {
+              pae: pae
+            });
 
           case 5:
           case "end":
@@ -53875,39 +54201,77 @@ function () {
     }, _callee13);
   }));
 
-  return function setImage(_x25, _x26) {
+  return function setPaes(_x25, _x26) {
     return _ref26.apply(this, arguments);
+  };
+}();
+
+var setImage =
+/*#__PURE__*/
+function () {
+  var _ref28 = _asyncToGenerator(
+  /*#__PURE__*/
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee14(_ref27, payload) {
+    var commit, state, result;
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee14$(_context14) {
+      while (1) {
+        switch (_context14.prev = _context14.next) {
+          case 0:
+            commit = _ref27.commit, state = _ref27.state;
+            _context14.next = 3;
+            return axios.post(state.baseURL + '/ajax/image', {
+              'name': payload.name,
+              'path': payload.path,
+              'width': payload.width,
+              'height': payload.height,
+              'size': payload.size
+            });
+
+          case 3:
+            result = _context14.sent.data;
+            if (result != true) window.location.reload();
+
+          case 5:
+          case "end":
+            return _context14.stop();
+        }
+      }
+    }, _callee14);
+  }));
+
+  return function setImage(_x27, _x28) {
+    return _ref28.apply(this, arguments);
   };
 }();
 
 var setNews =
 /*#__PURE__*/
 function () {
-  var _ref28 = _asyncToGenerator(
+  var _ref30 = _asyncToGenerator(
   /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee14(_ref27, payload) {
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee15(_ref29, payload) {
     var commit, state, news;
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee14$(_context14) {
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee15$(_context15) {
       while (1) {
-        switch (_context14.prev = _context14.next) {
+        switch (_context15.prev = _context15.next) {
           case 0:
-            commit = _ref27.commit, state = _ref27.state;
+            commit = _ref29.commit, state = _ref29.state;
 
             if (!payload.data) {
-              _context14.next = 5;
+              _context15.next = 5;
               break;
             }
 
             news = payload;
-            _context14.next = 8;
+            _context15.next = 8;
             break;
 
           case 5:
-            _context14.next = 7;
+            _context15.next = 7;
             return axios.get(state.baseURL + '/ajax/news?page=' + payload.page + '&per-page=' + payload.perPage + '&department=' + payload.department);
 
           case 7:
-            news = _context14.sent.data;
+            news = _context15.sent.data;
 
           case 8:
             commit('SET_NEWS', {
@@ -53916,48 +54280,48 @@ function () {
 
           case 9:
           case "end":
-            return _context14.stop();
+            return _context15.stop();
         }
       }
-    }, _callee14);
+    }, _callee15);
   }));
 
-  return function setNews(_x27, _x28) {
-    return _ref28.apply(this, arguments);
+  return function setNews(_x29, _x30) {
+    return _ref30.apply(this, arguments);
   };
 }();
 
 var setContests =
 /*#__PURE__*/
 function () {
-  var _ref30 = _asyncToGenerator(
+  var _ref32 = _asyncToGenerator(
   /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee15(_ref29, payload) {
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee16(_ref31, payload) {
     var commit, state, contests;
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee15$(_context15) {
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee16$(_context16) {
       while (1) {
-        switch (_context15.prev = _context15.next) {
+        switch (_context16.prev = _context16.next) {
           case 0:
-            commit = _ref29.commit, state = _ref29.state;
+            commit = _ref31.commit, state = _ref31.state;
             state.contests = {};
             state.candidates = null;
             state.positions = null;
 
             if (!payload.data) {
-              _context15.next = 8;
+              _context16.next = 8;
               break;
             }
 
             contests = payload;
-            _context15.next = 11;
+            _context16.next = 11;
             break;
 
           case 8:
-            _context15.next = 10;
+            _context16.next = 10;
             return axios.get(state.baseURL + '/ajax/contests?page=' + payload.page + '&per-page=' + payload.perPage + '&year=' + payload.year);
 
           case 10:
-            contests = _context15.sent.data;
+            contests = _context16.sent.data;
 
           case 11:
             commit('SET_CONTESTS', {
@@ -53966,47 +54330,47 @@ function () {
 
           case 12:
           case "end":
-            return _context15.stop();
+            return _context16.stop();
         }
       }
-    }, _callee15);
+    }, _callee16);
   }));
 
-  return function setContests(_x29, _x30) {
-    return _ref30.apply(this, arguments);
+  return function setContests(_x31, _x32) {
+    return _ref32.apply(this, arguments);
   };
 }();
 
 var setPositions =
 /*#__PURE__*/
 function () {
-  var _ref32 = _asyncToGenerator(
+  var _ref34 = _asyncToGenerator(
   /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee16(_ref31, payload) {
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee17(_ref33, payload) {
     var commit, state, positions;
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee16$(_context16) {
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee17$(_context17) {
       while (1) {
-        switch (_context16.prev = _context16.next) {
+        switch (_context17.prev = _context17.next) {
           case 0:
-            commit = _ref31.commit, state = _ref31.state;
+            commit = _ref33.commit, state = _ref33.state;
             state.positions = {};
             state.candidates = null;
 
             if (!payload.data) {
-              _context16.next = 7;
+              _context17.next = 7;
               break;
             }
 
             positions = payload;
-            _context16.next = 10;
+            _context17.next = 10;
             break;
 
           case 7:
-            _context16.next = 9;
+            _context17.next = 9;
             return axios.get(state.baseURL + '/ajax/positions?page=' + payload.page + '&per-page=' + payload.perPage + '&contest=' + payload.contest);
 
           case 9:
-            positions = _context16.sent.data;
+            positions = _context17.sent.data;
 
           case 10:
             commit('SET_POSITIONS', {
@@ -54015,29 +54379,29 @@ function () {
 
           case 11:
           case "end":
-            return _context16.stop();
+            return _context17.stop();
         }
       }
-    }, _callee16);
+    }, _callee17);
   }));
 
-  return function setPositions(_x31, _x32) {
-    return _ref32.apply(this, arguments);
+  return function setPositions(_x33, _x34) {
+    return _ref34.apply(this, arguments);
   };
 }();
 
 var setCandidates =
 /*#__PURE__*/
 function () {
-  var _ref34 = _asyncToGenerator(
+  var _ref36 = _asyncToGenerator(
   /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee17(_ref33, payload) {
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee18(_ref35, payload) {
     var commit, state, name, candidates;
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee17$(_context17) {
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee18$(_context18) {
       while (1) {
-        switch (_context17.prev = _context17.next) {
+        switch (_context18.prev = _context18.next) {
           case 0:
-            commit = _ref33.commit, state = _ref33.state;
+            commit = _ref35.commit, state = _ref35.state;
             console.log('payload.page', payload.page);
 
             if (!payload.page) {
@@ -54047,20 +54411,20 @@ function () {
             name = payload.name || '';
 
             if (!payload.data) {
-              _context17.next = 8;
+              _context18.next = 8;
               break;
             }
 
             candidates = payload;
-            _context17.next = 11;
+            _context18.next = 11;
             break;
 
           case 8:
-            _context17.next = 10;
+            _context18.next = 10;
             return axios.get(state.baseURL + '/ajax/candidates?page=' + payload.page + '&per-page=' + payload.perPage + '&position=' + payload.position + '&name=' + name);
 
           case 10:
-            candidates = _context17.sent.data;
+            candidates = _context18.sent.data;
 
           case 11:
             commit('SET_CANDIDATES', {
@@ -54069,61 +54433,61 @@ function () {
 
           case 12:
           case "end":
-            return _context17.stop();
-        }
-      }
-    }, _callee17);
-  }));
-
-  return function setCandidates(_x33, _x34) {
-    return _ref34.apply(this, arguments);
-  };
-}();
-
-var setBindCategories =
-/*#__PURE__*/
-function () {
-  var _ref36 = _asyncToGenerator(
-  /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee18(_ref35, payload) {
-    var commit, state, bindCategory;
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee18$(_context18) {
-      while (1) {
-        switch (_context18.prev = _context18.next) {
-          case 0:
-            commit = _ref35.commit, state = _ref35.state;
-            _context18.next = 3;
-            return axios.get(state.baseURL + '/ajax/bind-categories/' + payload.id + '?page=' + payload.page + '&per-page=' + payload.perPage + '&department=' + payload.department + '&year=' + payload.year + '&status=' + payload.status);
-
-          case 3:
-            bindCategory = _context18.sent.data;
-            return _context18.abrupt("return", bindCategory);
-
-          case 7:
-          case "end":
             return _context18.stop();
         }
       }
     }, _callee18);
   }));
 
-  return function setBindCategories(_x35, _x36) {
+  return function setCandidates(_x35, _x36) {
     return _ref36.apply(this, arguments);
+  };
+}();
+
+var setBindCategories =
+/*#__PURE__*/
+function () {
+  var _ref38 = _asyncToGenerator(
+  /*#__PURE__*/
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee19(_ref37, payload) {
+    var commit, state, bindCategory;
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee19$(_context19) {
+      while (1) {
+        switch (_context19.prev = _context19.next) {
+          case 0:
+            commit = _ref37.commit, state = _ref37.state;
+            _context19.next = 3;
+            return axios.get(state.baseURL + '/ajax/bind-categories/' + payload.id + '?page=' + payload.page + '&per-page=' + payload.perPage + '&department=' + payload.department + '&year=' + payload.year + '&status=' + payload.status);
+
+          case 3:
+            bindCategory = _context19.sent.data;
+            return _context19.abrupt("return", bindCategory);
+
+          case 7:
+          case "end":
+            return _context19.stop();
+        }
+      }
+    }, _callee19);
+  }));
+
+  return function setBindCategories(_x37, _x38) {
+    return _ref38.apply(this, arguments);
   };
 }();
 
 var setDepartments =
 /*#__PURE__*/
 function () {
-  var _ref38 = _asyncToGenerator(
+  var _ref40 = _asyncToGenerator(
   /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee19(_ref37, payload) {
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee20(_ref39, payload) {
     var commit, state, departments;
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee19$(_context19) {
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee20$(_context20) {
       while (1) {
-        switch (_context19.prev = _context19.next) {
+        switch (_context20.prev = _context20.next) {
           case 0:
-            commit = _ref37.commit, state = _ref37.state;
+            commit = _ref39.commit, state = _ref39.state;
 
             if (payload) {
               departments = payload;
@@ -54135,66 +54499,18 @@ function () {
 
           case 3:
           case "end":
-            return _context19.stop();
-        }
-      }
-    }, _callee19);
-  }));
-
-  return function setDepartments(_x37, _x38) {
-    return _ref38.apply(this, arguments);
-  };
-}();
-
-var setEvents =
-/*#__PURE__*/
-function () {
-  var _ref40 = _asyncToGenerator(
-  /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee20(_ref39, payload) {
-    var commit, state, events;
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee20$(_context20) {
-      while (1) {
-        switch (_context20.prev = _context20.next) {
-          case 0:
-            commit = _ref39.commit, state = _ref39.state;
-
-            if (!payload.data) {
-              _context20.next = 6;
-              break;
-            }
-
-            events = payload;
-            console.log('inside if payload.data ');
-            _context20.next = 9;
-            break;
-
-          case 6:
-            _context20.next = 8;
-            return axios.get(state.baseURL + '/ajax/events?page=' + payload.page + '&per-page=' + payload.perPage);
-
-          case 8:
-            events = _context20.sent.data;
-
-          case 9:
-            commit('SET_EVENTS', {
-              events: events
-            });
-
-          case 10:
-          case "end":
             return _context20.stop();
         }
       }
     }, _callee20);
   }));
 
-  return function setEvents(_x39, _x40) {
+  return function setDepartments(_x39, _x40) {
     return _ref40.apply(this, arguments);
   };
 }();
 
-var setSchedules =
+var setEvents =
 /*#__PURE__*/
 function () {
   var _ref42 = _asyncToGenerator(
@@ -54206,24 +54522,72 @@ function () {
         switch (_context21.prev = _context21.next) {
           case 0:
             commit = _ref41.commit, state = _ref41.state;
+
+            if (!payload.data) {
+              _context21.next = 6;
+              break;
+            }
+
+            events = payload;
+            console.log('inside if payload.data ');
+            _context21.next = 9;
+            break;
+
+          case 6:
+            _context21.next = 8;
+            return axios.get(state.baseURL + '/ajax/events?page=' + payload.page + '&per-page=' + payload.perPage);
+
+          case 8:
+            events = _context21.sent.data;
+
+          case 9:
+            commit('SET_EVENTS', {
+              events: events
+            });
+
+          case 10:
+          case "end":
+            return _context21.stop();
+        }
+      }
+    }, _callee21);
+  }));
+
+  return function setEvents(_x41, _x42) {
+    return _ref42.apply(this, arguments);
+  };
+}();
+
+var setSchedules =
+/*#__PURE__*/
+function () {
+  var _ref44 = _asyncToGenerator(
+  /*#__PURE__*/
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee22(_ref43, payload) {
+    var commit, state, events;
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee22$(_context22) {
+      while (1) {
+        switch (_context22.prev = _context22.next) {
+          case 0:
+            commit = _ref43.commit, state = _ref43.state;
             state.schedules = null;
 
             if (!payload.data) {
-              _context21.next = 7;
+              _context22.next = 7;
               break;
             }
 
             events = payload.data;
             console.log('inside if payload.data ');
-            _context21.next = 10;
+            _context22.next = 10;
             break;
 
           case 7:
-            _context21.next = 9;
+            _context22.next = 9;
             return axios.get(state.baseURL + '/ajax/schedules/' + payload.year);
 
           case 9:
-            events = _context21.sent.data;
+            events = _context22.sent.data;
 
           case 10:
             commit('SET_SCHEDULES', {
@@ -54232,59 +54596,32 @@ function () {
 
           case 11:
           case "end":
-            return _context21.stop();
-        }
-      }
-    }, _callee21);
-  }));
-
-  return function setSchedules(_x41, _x42) {
-    return _ref42.apply(this, arguments);
-  };
-}();
-
-var setFilters =
-/*#__PURE__*/
-function () {
-  var _ref44 = _asyncToGenerator(
-  /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee22(_ref43, payload) {
-    var commit;
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee22$(_context22) {
-      while (1) {
-        switch (_context22.prev = _context22.next) {
-          case 0:
-            commit = _ref43.commit;
-            commit('SET_FILTERS', {
-              payload: payload
-            });
-
-          case 2:
-          case "end":
             return _context22.stop();
         }
       }
     }, _callee22);
   }));
 
-  return function setFilters(_x43, _x44) {
+  return function setSchedules(_x43, _x44) {
     return _ref44.apply(this, arguments);
   };
 }();
 
-var setState =
+var setFilters =
 /*#__PURE__*/
 function () {
   var _ref46 = _asyncToGenerator(
   /*#__PURE__*/
   _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee23(_ref45, payload) {
-    var commit, state;
+    var commit;
     return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee23$(_context23) {
       while (1) {
         switch (_context23.prev = _context23.next) {
           case 0:
-            commit = _ref45.commit, state = _ref45.state;
-            commit('SET_STORE_STATE', payload);
+            commit = _ref45.commit;
+            commit('SET_FILTERS', {
+              payload: payload
+            });
 
           case 2:
           case "end":
@@ -54294,12 +54631,12 @@ function () {
     }, _callee23);
   }));
 
-  return function setState(_x45, _x46) {
+  return function setFilters(_x45, _x46) {
     return _ref46.apply(this, arguments);
   };
 }();
 
-var setToState =
+var setState =
 /*#__PURE__*/
 function () {
   var _ref48 = _asyncToGenerator(
@@ -54311,7 +54648,7 @@ function () {
         switch (_context24.prev = _context24.next) {
           case 0:
             commit = _ref47.commit, state = _ref47.state;
-            commit('SET_TO_STATE', payload);
+            commit('SET_STORE_STATE', payload);
 
           case 2:
           case "end":
@@ -54321,12 +54658,12 @@ function () {
     }, _callee24);
   }));
 
-  return function setToState(_x47, _x48) {
+  return function setState(_x47, _x48) {
     return _ref48.apply(this, arguments);
   };
 }();
 
-var setToken =
+var setToState =
 /*#__PURE__*/
 function () {
   var _ref50 = _asyncToGenerator(
@@ -54338,7 +54675,7 @@ function () {
         switch (_context25.prev = _context25.next) {
           case 0:
             commit = _ref49.commit, state = _ref49.state;
-            commit('SET_TOKEN', payload);
+            commit('SET_TO_STATE', payload);
 
           case 2:
           case "end":
@@ -54348,12 +54685,12 @@ function () {
     }, _callee25);
   }));
 
-  return function setToken(_x49, _x50) {
+  return function setToState(_x49, _x50) {
     return _ref50.apply(this, arguments);
   };
 }();
 
-var setBreadcrumbs =
+var setToken =
 /*#__PURE__*/
 function () {
   var _ref52 = _asyncToGenerator(
@@ -54365,7 +54702,7 @@ function () {
         switch (_context26.prev = _context26.next) {
           case 0:
             commit = _ref51.commit, state = _ref51.state;
-            commit('SET_BREADCRUMBS', payload);
+            commit('SET_TOKEN', payload);
 
           case 2:
           case "end":
@@ -54375,34 +54712,26 @@ function () {
     }, _callee26);
   }));
 
-  return function setBreadcrumbs(_x51, _x52) {
+  return function setToken(_x51, _x52) {
     return _ref52.apply(this, arguments);
   };
 }();
 
-var setInnerGalleries =
+var setBreadcrumbs =
 /*#__PURE__*/
 function () {
   var _ref54 = _asyncToGenerator(
   /*#__PURE__*/
   _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee27(_ref53, payload) {
-    var commit, state, gallery;
+    var commit, state;
     return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee27$(_context27) {
       while (1) {
         switch (_context27.prev = _context27.next) {
           case 0:
             commit = _ref53.commit, state = _ref53.state;
-            _context27.next = 3;
-            return axios.get(state.baseURL + '/ajax/inner-gallery/' + payload.name);
+            commit('SET_BREADCRUMBS', payload);
 
-          case 3:
-            gallery = _context27.sent.data;
-            commit('SET_INNER_GALLERIES', {
-              name: payload.name,
-              gallery: gallery
-            });
-
-          case 5:
+          case 2:
           case "end":
             return _context27.stop();
         }
@@ -54410,29 +54739,64 @@ function () {
     }, _callee27);
   }));
 
-  return function setInnerGalleries(_x53, _x54) {
+  return function setBreadcrumbs(_x53, _x54) {
     return _ref54.apply(this, arguments);
+  };
+}();
+
+var setInnerGalleries =
+/*#__PURE__*/
+function () {
+  var _ref56 = _asyncToGenerator(
+  /*#__PURE__*/
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee28(_ref55, payload) {
+    var commit, state, gallery;
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee28$(_context28) {
+      while (1) {
+        switch (_context28.prev = _context28.next) {
+          case 0:
+            commit = _ref55.commit, state = _ref55.state;
+            _context28.next = 3;
+            return axios.get(state.baseURL + '/ajax/inner-gallery/' + payload.name);
+
+          case 3:
+            gallery = _context28.sent.data;
+            commit('SET_INNER_GALLERIES', {
+              name: payload.name,
+              gallery: gallery
+            });
+
+          case 5:
+          case "end":
+            return _context28.stop();
+        }
+      }
+    }, _callee28);
+  }));
+
+  return function setInnerGalleries(_x55, _x56) {
+    return _ref56.apply(this, arguments);
   };
 }();
 
 var setLocation =
 /*#__PURE__*/
 function () {
-  var _ref56 = _asyncToGenerator(
+  var _ref58 = _asyncToGenerator(
   /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee28(_ref55, payload) {
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee29(_ref57, payload) {
     var commit, state, all, list;
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee28$(_context28) {
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee29$(_context29) {
       while (1) {
-        switch (_context28.prev = _context28.next) {
+        switch (_context29.prev = _context29.next) {
           case 0:
-            commit = _ref55.commit, state = _ref55.state;
+            commit = _ref57.commit, state = _ref57.state;
             console.log("setlocation");
-            _context28.next = 4;
+            _context29.next = 4;
             return axios.get(state.baseURL + '/ajax/location?type=' + payload.type + '&id=' + payload.id);
 
           case 4:
-            all = _context28.sent.data;
+            all = _context29.sent.data;
             list = null;
 
             if (payload.type === 'country') {
@@ -54467,29 +54831,29 @@ function () {
 
           case 9:
           case "end":
-            return _context28.stop();
+            return _context29.stop();
         }
       }
-    }, _callee28);
+    }, _callee29);
   }));
 
-  return function setLocation(_x55, _x56) {
-    return _ref56.apply(this, arguments);
+  return function setLocation(_x57, _x58) {
+    return _ref58.apply(this, arguments);
   };
 }();
 
 var setClearFields =
 /*#__PURE__*/
 function () {
-  var _ref58 = _asyncToGenerator(
+  var _ref60 = _asyncToGenerator(
   /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee29(_ref57, type) {
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee30(_ref59, type) {
     var commit, state, list;
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee29$(_context29) {
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee30$(_context30) {
       while (1) {
-        switch (_context29.prev = _context29.next) {
+        switch (_context30.prev = _context30.next) {
           case 0:
-            commit = _ref57.commit, state = _ref57.state;
+            commit = _ref59.commit, state = _ref59.state;
             list = [];
 
             if (type === 'country') {
@@ -54513,53 +54877,18 @@ function () {
 
           case 5:
           case "end":
-            return _context29.stop();
-        }
-      }
-    }, _callee29);
-  }));
-
-  return function setClearFields(_x57, _x58) {
-    return _ref58.apply(this, arguments);
-  };
-}();
-
-var sendContactForm =
-/*#__PURE__*/
-function () {
-  var _ref60 = _asyncToGenerator(
-  /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee30(_ref59, payload) {
-    var commit, state, result;
-    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee30$(_context30) {
-      while (1) {
-        switch (_context30.prev = _context30.next) {
-          case 0:
-            commit = _ref59.commit, state = _ref59.state;
-            console.log('entrou no action sendContactForm');
-            console.log('action: payload ', payload); // payload['csrfToken'] = state.token
-
-            _context30.next = 5;
-            return axios.post(state.baseURL + '/ajax/contact/send', payload);
-
-          case 5:
-            result = _context30.sent.data;
-            commit("SET_CONTACTFORM", result.status);
-
-          case 7:
-          case "end":
             return _context30.stop();
         }
       }
     }, _callee30);
   }));
 
-  return function sendContactForm(_x59, _x60) {
+  return function setClearFields(_x59, _x60) {
     return _ref60.apply(this, arguments);
   };
 }();
 
-var sendNewsLetter =
+var sendContactForm =
 /*#__PURE__*/
 function () {
   var _ref62 = _asyncToGenerator(
@@ -54571,14 +54900,15 @@ function () {
         switch (_context31.prev = _context31.next) {
           case 0:
             commit = _ref61.commit, state = _ref61.state;
-            console.log('NA ACTION O PAYLOAD DA SENDNEWSLETTER É: ', payload);
-            _context31.next = 4;
-            return axios.post(state.baseURL + '/ajax/newsletter', payload);
+            console.log('entrou no action sendContactForm');
+            console.log('action: payload ', payload); // payload['csrfToken'] = state.token
 
-          case 4:
+            _context31.next = 5;
+            return axios.post(state.baseURL + '/ajax/contact/send', payload);
+
+          case 5:
             result = _context31.sent.data;
-            console.log(result);
-            commit("SET_NEWSLETTER", result.status);
+            commit("SET_CONTACTFORM", result.status);
 
           case 7:
           case "end":
@@ -54588,26 +54918,33 @@ function () {
     }, _callee31);
   }));
 
-  return function sendNewsLetter(_x61, _x62) {
+  return function sendContactForm(_x61, _x62) {
     return _ref62.apply(this, arguments);
   };
 }();
 
-var setNewsLetter =
+var sendNewsLetter =
 /*#__PURE__*/
 function () {
   var _ref64 = _asyncToGenerator(
   /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee32(_ref63) {
-    var commit, state;
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee32(_ref63, payload) {
+    var commit, state, result;
     return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee32$(_context32) {
       while (1) {
         switch (_context32.prev = _context32.next) {
           case 0:
             commit = _ref63.commit, state = _ref63.state;
-            commit("SET_NEWSLETTER", null);
+            console.log('NA ACTION O PAYLOAD DA SENDNEWSLETTER É: ', payload);
+            _context32.next = 4;
+            return axios.post(state.baseURL + '/ajax/newsletter', payload);
 
-          case 2:
+          case 4:
+            result = _context32.sent.data;
+            console.log(result);
+            commit("SET_NEWSLETTER", result.status);
+
+          case 7:
           case "end":
             return _context32.stop();
         }
@@ -54615,12 +54952,12 @@ function () {
     }, _callee32);
   }));
 
-  return function setNewsLetter(_x63) {
+  return function sendNewsLetter(_x63, _x64) {
     return _ref64.apply(this, arguments);
   };
 }();
 
-var setContactForm =
+var setNewsLetter =
 /*#__PURE__*/
 function () {
   var _ref66 = _asyncToGenerator(
@@ -54632,7 +54969,7 @@ function () {
         switch (_context33.prev = _context33.next) {
           case 0:
             commit = _ref65.commit, state = _ref65.state;
-            commit("SET_CONTACTFORM", null);
+            commit("SET_NEWSLETTER", null);
 
           case 2:
           case "end":
@@ -54642,38 +54979,26 @@ function () {
     }, _callee33);
   }));
 
-  return function setContactForm(_x64) {
+  return function setNewsLetter(_x65) {
     return _ref66.apply(this, arguments);
   };
 }();
 
-var setDepartmentList =
+var setContactForm =
 /*#__PURE__*/
 function () {
   var _ref68 = _asyncToGenerator(
   /*#__PURE__*/
-  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee34(_ref67, payload) {
-    var commit, state, url, element;
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee34(_ref67) {
+    var commit, state;
     return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee34$(_context34) {
       while (1) {
         switch (_context34.prev = _context34.next) {
           case 0:
             commit = _ref67.commit, state = _ref67.state;
-            url = state.baseURL + '/ajax/department/' + payload.department + '/' + payload.model + '/' + payload.id + '?page=' + payload.page;
-            if (payload.filter) url += '&filter=' + payload.filter;
-            _context34.next = 5;
-            return axios.get(url)["catch"](function (error) {
-              return error.response;
-            });
+            commit("SET_CONTACTFORM", null);
 
-          case 5:
-            element = _context34.sent.data;
-            commit('SET_ACTION_RESPONSE', {
-              id: payload.actionId,
-              element: element
-            });
-
-          case 7:
+          case 2:
           case "end":
             return _context34.stop();
         }
@@ -54681,8 +55006,47 @@ function () {
     }, _callee34);
   }));
 
-  return function setDepartmentList(_x65, _x66) {
+  return function setContactForm(_x66) {
     return _ref68.apply(this, arguments);
+  };
+}();
+
+var setDepartmentList =
+/*#__PURE__*/
+function () {
+  var _ref70 = _asyncToGenerator(
+  /*#__PURE__*/
+  _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee35(_ref69, payload) {
+    var commit, state, url, element;
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee35$(_context35) {
+      while (1) {
+        switch (_context35.prev = _context35.next) {
+          case 0:
+            commit = _ref69.commit, state = _ref69.state;
+            url = state.baseURL + '/ajax/department/' + payload.department + '/' + payload.model + '/' + payload.id + '?page=' + payload.page;
+            if (payload.filter) url += '&filter=' + payload.filter;
+            _context35.next = 5;
+            return axios.get(url)["catch"](function (error) {
+              return error.response;
+            });
+
+          case 5:
+            element = _context35.sent.data;
+            commit('SET_ACTION_RESPONSE', {
+              id: payload.actionId,
+              element: element
+            });
+
+          case 7:
+          case "end":
+            return _context35.stop();
+        }
+      }
+    }, _callee35);
+  }));
+
+  return function setDepartmentList(_x67, _x68) {
+    return _ref70.apply(this, arguments);
   };
 }();
 
@@ -54720,7 +55084,8 @@ function () {
   setContraste: setContraste,
   setSearch: setSearch,
   setDepartmentList: setDepartmentList,
-  setSchedules: setSchedules
+  setSchedules: setSchedules,
+  delMenu: delMenu
 });
 
 /***/ }),
@@ -54847,6 +55212,13 @@ var SET_INNER = function SET_INNER(state, obj) {
 
 var SET_CONFIGS = function SET_CONFIGS(state, obj) {
   state.configurations = obj.list;
+};
+
+var DEL_MENU = function DEL_MENU(state, item) {
+  console.log('item na mutation', item);
+  var pos = state.menus.indexOf(item);
+  console.log('pos é ', pos);
+  state.menus.splice(pos, 1);
 };
 
 var SET_MENUS = function SET_MENUS(state, obj) {
@@ -54990,7 +55362,8 @@ var SET_ACTION_RESPONSE = function SET_ACTION_RESPONSE(state, obj) {
   SET_CONTRASTE: SET_CONTRASTE,
   SET_SEARCH: SET_SEARCH,
   SET_ACTION_RESPONSE: SET_ACTION_RESPONSE,
-  SET_SCHEDULES: SET_SCHEDULES
+  SET_SCHEDULES: SET_SCHEDULES,
+  DEL_MENU: DEL_MENU
 });
 
 /***/ }),

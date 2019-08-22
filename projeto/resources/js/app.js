@@ -33,12 +33,14 @@ Vue.component('and-config', require('./components/startpack/header/container/and
 Vue.component('and-block-icon', require('./components/startpack/block/container/and-block-icon.vue').default);
 Vue.component('and-master-footer', require('./components/startpack/footer/container/and-master-footer.vue').default);
 Vue.component('and-contact', require('./components/startpack/contact/container/and-contact.vue').default);
+Vue.component('and-menu-edit', require('./components/startpack/temp/container/and-menu-edit.vue').default);
 
 // PRESENTATION
 Vue.component('and-pres-master-footer', require('./components/startpack/footer/presentation/and-pres-master-footer.vue').default);
 Vue.component('and-pres-contact', require('./components/startpack/contact/presentation/and-pres-contact.vue').default);
 Vue.component('and-pres-block-image-left', require('./components/startpack/block/presentation/and-pres-block-image-left.vue').default);
 Vue.component('and-pres-block-image-right', require('./components/startpack/block/presentation/and-pres-block-image-right.vue').default);
+Vue.component('and-pres-list-menu', require('./components/startpack/temp/presentation/and-pres-list-menu.vue').default);
 
 
 /**
