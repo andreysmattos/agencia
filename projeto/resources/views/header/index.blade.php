@@ -1,5 +1,8 @@
-<ul>
-	<li>Item 1</li>
-	<li>Item 2</li>
-	<li>Item 3</li>
-</ul>
+<and-config
+        :configs="{{ $configs ?? 'null'}}"
+        :filters="{{$filters ?? 'null'}}"
+        :fields="{{$fields ?? 'null'}}"
+         token="{{csrf_token()}}"
+        :menus="{{$menus ?? 'null'}}"
+        :breadcrumbs="{{$breadcrumbs ?? 'null'}}"
+></and-config>

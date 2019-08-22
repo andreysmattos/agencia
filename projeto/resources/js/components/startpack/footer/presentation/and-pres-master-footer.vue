@@ -3,8 +3,16 @@
 		<div class="container">
 			<img class="master-footer__img img-fluid" src="https://webness.com.br/novosite/wp-content/uploads/2016/12/logo_webness.png" alt="">
 
+
+
 			<ul class="menu">
-				<li>
+
+				<li v-for="item in this.menus">
+					
+					<a href="#">{{item}}</a>
+				</li>
+
+				<!-- <li>
 					<a href="#">Home</a>
 					
 				</li>
@@ -23,7 +31,7 @@
 
 				<li>
 					<a href="#">Contato</a>
-				</li>				
+				</li>	 -->			
 
 			</ul>
 
@@ -111,6 +119,11 @@
 			// 	type: Object,
 			// 	default: {}
 			// }
+
+			menus: {
+				type: Object,
+				default: []
+			}
 		},
 		computed: {
 			// ...mapGetters('startpack', ['getBaseURL'])
